@@ -9,47 +9,40 @@
 2. StatusBarUtil直接封装了所有状态栏的操作，是适配后的封装类，可以直接调用
 
 ## 二、手机厂商开发者
+1. [华为开发者联盟](https://developer.huawei.com/consumer/cn/)
 1. [小米开放平台](https://dev.mi.com/console/doc/)
+1. [oppo开放平台](hhttps://open.oppomobile.com/)
 1. [vivo开发者平台](https://dev.vivo.com.cn/documentCenter)
 1. [锤子开发者中心](http://dev.smartisan.com/)
 1. [三星开发者中心](https://developer.samsung.com/home.do)
-1. [oppo开放平台](hhttps://open.oppomobile.com/)
 1. [魅族开放平台](https://open.flyme.cn/)
-1. [华为开发者联盟](https://developer.huawei.com/consumer/cn/)
-
 
 ## 二、Build类说明
 
 #### 1、代码
 ```
- stringBuilder.append("Build.ID: " + Build.ID + "\n");//修订版本列表
-        stringBuilder.append("Build.DISPLAY: " + Build.DISPLAY + "\n");//显示屏参数
-        stringBuilder.append("Build.PRODUCT: " + Build.PRODUCT + "\n");//整个产品的名称
-        stringBuilder.append("Build.DEVICE: " + Build.DEVICE + "\n");//设备参数
-        stringBuilder.append("Build.BOARD: " + Build.BOARD + "\n");//主板
-        stringBuilder.append("Build.MANUFACTURER: " + Build.MANUFACTURER + "\n");//硬件制造商
-        stringBuilder.append("Build.BRAND: " + Build.BRAND + "\n");//系统定制商
-        stringBuilder.append("Build.MODEL: " + Build.MODEL + "\n");//版本即最终用户可见的名称
-        stringBuilder.append("Build.BOOTLOADER: " + Build.BOOTLOADER + "\n");//系统启动程序版本号
-        stringBuilder.append("Build.RADIO: " + Build.RADIO + "\n");
-        stringBuilder.append("Build.SERIAL : " + Build.SERIAL + "\n");
-        stringBuilder.append("Build.HARDWARE: " + Build.HARDWARE + "\n");// 硬件名称
-        stringBuilder.append("Build.FINGERPRINT : " + Build.FINGERPRINT + "\n");
-        stringBuilder.append("Build.VERSION.INCREMENTAL: " + Build.VERSION.INCREMENTAL + "\n");
-        stringBuilder.append("Build.VERSION.RELEASE: " + Build.VERSION.RELEASE + "\n");
-        stringBuilder.append("Build.VERSION.BASE_OS: " + Build.VERSION.BASE_OS + "\n");
-        stringBuilder.append("Build.VERSION.SECURITY_PATCH: " + Build.VERSION.SECURITY_PATCH + "\n");
-        stringBuilder.append("System System.getProperty: " + System.getProperty("ro.miui.ui.version.name") + "\n");
-
-        new Thread(() -> {
-            stringBuilder.append("System getSystemProperty: " + SystemPropertyUtil.getSystemProperty("ro.miui.ui.version.name") + "\n");
-            runOnUiThread(() -> ((TextView) findViewById(R.id.text)).setText(stringBuilder.toString()));
-        }
-        ).start();
+ Build.ID //修订版本列表
+ Build.DISPLAY //显示屏参数
+ Build.PRODUCT//整个产品的名称
+ Build.DEVICE //设备参数
+ Build.BOARD //主板
+ Build.MANUFACTURER //硬件制造商
+ Build.BRAND //系统定制商
+ Build.MODEL //版本即最终用户可见的名称
+ Build.BOOTLOADER //系统启动程序版本号
+ Build.RADIO 
+ Build.SERIAL 
+ Build.HARDWARE // 硬件名称
+ Build.FINGERPRINT 
+ Build.VERSION.INCREMENTAL 
+ Build.VERSION.RELEASE 
+ Build.VERSION.BASE_OS 
+ Build.VERSION.SECURITY_PATCH 
+ System.getProperty("ro.miui.ui.version.name") 
+ SystemPropertyUtil.getSystemProperty("ro.miui.ui.version.name")
 ```
 #### 2、输出结果实例
-![image](Screenshot.png)
-
+<img src="Screenshot.png" width="300" hegiht="400" align=center />
 
 ## 三、注意事项
 1. 修改状态栏字体颜色后再调用透明状态栏属性才会使得界面布局延伸到状态栏，例如
