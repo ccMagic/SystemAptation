@@ -8,14 +8,15 @@
 1. StatusBarBgUtil这个类直接修改状态栏背景颜色
 2. StatusBarUtil直接封装了所有状态栏的操作，是适配后的封装类，可以直接调用
 
-## 二、手机厂商开发者
-1. [华为开发者联盟](https://developer.huawei.com/consumer/cn/)
-1. [小米开放平台](https://dev.mi.com/console/doc/)
-1. [oppo开放平台](hhttps://open.oppomobile.com/)
-1. [vivo开发者平台](https://dev.vivo.com.cn/documentCenter)
-1. [锤子开发者中心](http://dev.smartisan.com/)
-1. [三星开发者中心](https://developer.samsung.com/home.do)
-1. [魅族开放平台](https://open.flyme.cn/)
+## 二、手机厂商开发者平台
+1. [华为开发者联盟：https://developer.huawei.com/consumer/cn/](https://developer.huawei.com/consumer/cn/)
+1. [小米开放平台：https://dev.mi.com/console/doc/](https://dev.mi.com/console/doc/)
+1. [oppo开放平台：https://open.oppomobile.com/](https://open.oppomobile.com/)
+1. [vivo开发者平台：https://dev.vivo.com.cn/documentCenter](https://dev.vivo.com.cn/documentCenter)
+1. [魅族开放平台：https://open.flyme.cn/](https://open.flyme.cn/)
+1. [锤子开发者中心：http://dev.smartisan.com/](http://dev.smartisan.com/)
+1. [三星开发者中心：https://developer.samsung.com/home.do](https://developer.samsung.com/home.do)
+
 
 ## 二、Build类说明
 
