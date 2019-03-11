@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation.vivo;
+package com.github.ccmagic.systemaptation.vivo;
 
 public class VIVO {
     public static final String ROM_VIVO = "VIVO";

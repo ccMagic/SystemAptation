@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation.xiaomi;
+package com.github.ccmagic.systemaptation.xiaomi;
 
 import android.app.Activity;
 import android.os.Build;

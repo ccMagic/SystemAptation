@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation;
+package com.github.ccmagic.systemaptation;
 
 import android.util.Log;
 

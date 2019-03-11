@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation.meizu;
+package com.github.ccmagic.systemaptation.meizu;
 
 import android.app.Activity;
 import android.os.Build;

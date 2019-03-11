@@ -1,9 +1,9 @@
-package com.github.ccmagic.systemaptation.sysdaptation.xiaomi;
+package com.github.ccmagic.systemaptation.xiaomi;
 
 import android.app.Activity;
 import android.os.Build;
 
-import com.github.ccmagic.systemaptation.sysdaptation.SystemPropertyUtil;
+import com.github.ccmagic.systemaptation.SystemPropertyUtil;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

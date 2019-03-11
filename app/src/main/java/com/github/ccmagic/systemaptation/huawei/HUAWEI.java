@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation.huawei;
+package com.github.ccmagic.systemaptation.huawei;
 
 /**
  * 2019/3/3

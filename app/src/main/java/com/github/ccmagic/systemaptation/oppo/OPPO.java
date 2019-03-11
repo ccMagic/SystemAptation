@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation.oppo;
+package com.github.ccmagic.systemaptation.oppo;
 
 public class OPPO {
     public static final String ROM_OPPO = "OPPO";

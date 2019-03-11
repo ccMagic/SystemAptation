@@ -1,11 +1,12 @@
-package com.github.ccmagic.systemaptation;
+package debug;
 
 import android.os.Build;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.github.ccmagic.systemaptation.sysdaptation.StatusBarUtil;
-import com.github.ccmagic.systemaptation.sysdaptation.SystemPropertyUtil;
+import com.github.ccmagic.systemaptation.R;
+import com.github.ccmagic.systemaptation.StatusBarUtil;
+import com.github.ccmagic.systemaptation.SystemPropertyUtil;
 
 import androidx.appcompat.app.AppCompatActivity;
 import io.reactivex.disposables.CompositeDisposable;

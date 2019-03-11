@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation;
+package com.github.ccmagic.systemaptation;
 
 import android.app.Activity;
 import android.content.res.TypedArray;
@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.github.ccmagic.systemaptation.sysdaptation.meizu.FLYME;
-import com.github.ccmagic.systemaptation.sysdaptation.xiaomi.MIUI;
+import com.github.ccmagic.systemaptation.meizu.FLYME;
+import com.github.ccmagic.systemaptation.xiaomi.MIUI;
 
 import androidx.annotation.NonNull;
 import io.reactivex.Observable;

@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation.smartisan;
+package com.github.ccmagic.systemaptation.smartisan;
 
 public class SMARTISAN {
     public static final String ROM_SMARTISAN = "SMARTISAN";

@@ -1,4 +1,4 @@
-package com.github.ccmagic.systemaptation.sysdaptation.qiku;
+package com.github.ccmagic.systemaptation.qiku;
 
 import android.os.Build;
 
