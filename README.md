@@ -1,6 +1,15 @@
 # SystemAptation
 国内主流手机厂商操作系统适配（华为、小米、oppo、vivo等等），持续更新...
 
+## 备注
+打包jar发布maven库
+
+![image](上传私有maven库.jpg)
+
+其他项目引入
+```
+implementation 'xx.xxx:SystemAdapter:v1.0.0@jar'
+```
 ## 零、版本说明
 当前版本只是适配了不分小米和魅族的状态栏字体颜色
 
